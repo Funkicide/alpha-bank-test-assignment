@@ -1,7 +1,7 @@
 {
-  "name": "test-assignment",
+  "name": "alpha-bank-test-assignment",
   "version": "0.1.0",
-  "homepage": "https://funkicide.github.io/test-assignment",
+  "homepage": "https://funkicide.github.io/alpha-bank-test-assignment",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
