@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/test-assignment/static/js/main.86982491.js",
-    "index.html": "/test-assignment/index.html",
-    "main.86982491.js.map": "/test-assignment/static/js/main.86982491.js.map"
+    "main.js": "/static/js/main.86982491.js",
+    "index.html": "/index.html",
+    "main.86982491.js.map": "/static/js/main.86982491.js.map"
   },
   "entrypoints": [
     "static/js/main.86982491.js"
