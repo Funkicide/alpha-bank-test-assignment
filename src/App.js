@@ -29,16 +29,16 @@ const App = () => {
         <Card.Img variant="top" src={url} />
         <Card.Body className="d-flex justify-content-between">
           <Button
+            variant="outline-danger"
             onClick={() => dispatch(picturesActions.deletePicture({ pictureId: id }))}
-            variant="danger"
           >
-            Удалить
+            <i className="bi bi-trash" />
           </Button>
           <Button
+            variant={uiState[id].isLiked ? 'danger' : 'outline-danger'}
             onClick={() => dispatch(picturesActions.changeLikedStatus({ pictureId: id }))}
-            variant={uiState[id].isLiked ? 'success' : 'outline-success'}
           >
-            Нравится
+            {uiState[id].isLiked ? <i className="bi bi-heart-fill" /> : <i className="bi bi-heart" />}
           </Button>
         </Card.Body>
       </Card>
@@ -50,7 +50,13 @@ const App = () => {
       <Navbar className="mb-3" sticky="top" bg="white">
         <Container>
           <Navbar.Brand href={routes.pages.rootPath()}>Shibe Pics</Navbar.Brand>
-          <Button onClick={handleFiltrationByLike} variant={isFiltered ? 'primary' : 'outline-primary'}>Фильтр</Button>
+          <Button
+            size="lg"
+            onClick={handleFiltrationByLike}
+            variant={isFiltered ? 'primary' : 'outline-primary'}
+          >
+            {isFiltered ? <i className="bi bi-funnel-fill" /> : <i className="bi bi-funnel" />}
+          </Button>
         </Container>
       </Navbar>
       <Container>
