@@ -1,4 +1,4 @@
-const apiPath = 'http://shibe.online/api/shibes';
+const apiPath = 'https://shibe.online/api/shibes';
 
 const routes = {
   api: {
