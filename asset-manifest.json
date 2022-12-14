@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/test-assignment/static/js/main.31899c0d.js",
-    "index.html": "/test-assignment/index.html",
-    "main.31899c0d.js.map": "/test-assignment/static/js/main.31899c0d.js.map"
+    "main.js": "/alpha-bank-test-assignment/static/js/main.31899c0d.js",
+    "index.html": "/alpha-bank-test-assignment/index.html",
+    "main.31899c0d.js.map": "/alpha-bank-test-assignment/static/js/main.31899c0d.js.map"
   },
   "entrypoints": [
     "static/js/main.31899c0d.js"
