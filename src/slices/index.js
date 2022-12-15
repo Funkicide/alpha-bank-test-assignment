@@ -1,11 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import picturesSlice, { actions as picturesActions, fetchData } from './picturesSlice.js';
+import cardsReducer, { actions as cardsActions, fetchData } from './cardsSlice.js';
 
 export default configureStore({
   reducer: {
-    picturesInfo: picturesSlice,
+    cardsInfo: cardsReducer,
   },
 });
 
-export { picturesActions, fetchData };
+export { cardsActions, fetchData };
