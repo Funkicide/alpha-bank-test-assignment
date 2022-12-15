@@ -65,7 +65,7 @@ const App = () => {
         </Container>
       </Navbar>
       <Container>
-        <Row sm={1} md={3} lg={4} className="align-items-center">
+        <Row xs={1} md={3} lg={4} className="align-items-center">
           {renderCards(cards)}
         </Row>
       </Container>
