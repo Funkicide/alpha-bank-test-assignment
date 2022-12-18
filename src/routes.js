@@ -7,7 +7,7 @@ const routes = {
     factsPath: (factsNumber = 1) => [factsPath, '?', 'count=', factsNumber].join(''),
   },
   pages: {
-    rootPath: () => '/',
+    rootPath: () => '/alpha-bank-test-assignment',
   },
 };
 
