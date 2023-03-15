@@ -2,10 +2,12 @@ install:
 	npm ci
 
 build:
-	make build
+	npm run build
 
 start:
 	npm start
 
 lint:
 	npx eslint .
+
+.PHONY:	build
